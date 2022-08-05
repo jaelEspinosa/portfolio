@@ -5,20 +5,24 @@
 }
 
 .cv{
-    width: 70%;
-    max-width: 700px;
+    width: 90%;
+    max-width: 500px;
     animation: mostrar;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 }
-
+@media (min-width:768px) {
+    .cv{
+        margin-top: 50px;
+    }
+}
 @keyframes mostrar {
     0%{
         width: 0%;
         height: 0%;
     }
     100%{
-        height: 70%;
-        width: 70%;
+        height: 90%;
+        width: 90%;
     }
 
     
