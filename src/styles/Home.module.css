@@ -1,0 +1,99 @@
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    animation: present 1s;
+    animation-timing-function: ease-in-out;
+   
+}
+@media(min-width:768px){
+    .container{
+        font-size: 1.5rem;
+        animation: presentMedia 1s;
+        animation-timing-function: ease-in-out;   
+    }
+
+}
+
+.contfoto{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    animation: presentFoto 1.5s;
+    animation-timing-function: ease-in-out;
+
+    
+}
+.foto{
+    width: 100%;
+}
+
+@keyframes presentFoto {
+    0%{
+        width: 0px;
+        height: 0px;
+        
+    }
+    100%{
+        width: 250px;
+        height: 250px;
+        
+    }
+    
+}
+
+@keyframes present {
+    0%{
+      color: rgba(255, 255, 255, 0);
+      width: 0%;
+      height: 0%;
+      font-size: 0.1rem;
+    }   
+
+    20%{
+        color: rgba(255, 255, 255, 0);  
+    }
+        
+    
+    
+    100%{
+        color:white;
+        width: 100%;
+        height: 100%;
+        font-size: 0.8rem;
+                   
+        
+    }
+    
+}
+@keyframes presentMedia {
+    0%{
+      color: rgba(255, 255, 255, 0);
+      width: 0%;
+      height: 0%;
+      font-size: 0.1rem;
+    }   
+
+    20%{
+        color: rgba(255, 255, 255, 0);  
+    }
+        
+    
+    
+    100%{
+        color:white;
+        width: 100%;
+        height: 100%;
+        font-size: 1.5rem;
+                   
+        
+    }
+    
+}

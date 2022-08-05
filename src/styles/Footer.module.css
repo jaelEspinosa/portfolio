@@ -1,0 +1,10 @@
+.footer{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    color:white;
+    display: flex;
+    gap:2rem;
+}
+.footer img{
+    width: 2rem;
+}

@@ -1,0 +1,44 @@
+.contain{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+.contain article{
+    padding:5px;
+    
+}
+
+.contain h2{
+    text-transform: uppercase;
+    
+}
+.containFoto{
+    
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    border-radius: 10px;
+  
+    width: 18rem;
+    height: 18rem;
+}
+.foto{
+    width: 100%;
+
+}
+@media(min-width:768px){
+    .contain{
+        margin-top: 60px;
+        gap:30px;
+    }
+    .containFoto{
+        align-self: flex-start;
+    }
+    .contain article{
+       
+        text-align: justify;
+    }
+}
