@@ -38,7 +38,7 @@ const Proyectos = () => {
           <img className={styles.imagen} src={weather} alt="weather-app" />
           <div className={styles.description}>
             <p className={styles.resumen}>
-              App meterológica. Si das permisos de ubicación, consulta a la api wheather y renderiza al prediccion meterológica en las hora y dias próximos.
+              App meterológica. Si das permisos de ubicación, consulta a la api wheather y renderiza al predicción meterológica en las horas y dias próximos.
               También tiene un buscador para encontrar la ciudad deseada y consultar el clima de ésta.
             </p>
             <p className={styles.resumen}>Tecnologia: React css </p>

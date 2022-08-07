@@ -1,7 +1,7 @@
 .contain{
     margin:auto;
     width: 90%;
-    height: 70vh;
+    height: 65vh;
     max-width: 900px;
     border: 1px solid white;
     color:white;
@@ -25,6 +25,9 @@
     }
     .description{
         width: 50%;
+    }
+    .contain{
+        height: 70vh;
     }
 }
 .contain::-webkit-scrollbar{

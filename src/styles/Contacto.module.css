@@ -1,6 +1,6 @@
 
 .formulario{
-    background-image: url('../img/sobre.jpg');
+    background-image: url('../img/sobre-vertical.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@
     margin-top: 5px;
     margin-bottom: 10px;
     max-width: 800px;
-    color:gray;
+    color:rgb(39, 38, 38);
     border: 1px solid white;
     display: flex;
     flex-direction: column;
