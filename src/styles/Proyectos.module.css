@@ -1,0 +1,46 @@
+.contain{
+    margin:auto;
+    width: 90%;
+    height: 70vh;
+    max-width: 900px;
+    border: 1px solid white;
+    color:white;
+    overflow-y: scroll;
+    border-radius: 8px;
+    padding: 20px;
+}
+.cardContain{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    gap:15px;
+}
+
+@media(min-width:768px){
+    .cardContain{
+        flex-direction: row;
+    }
+    .description{
+        width: 50%;
+    }
+}
+.contain::-webkit-scrollbar{
+    width: 5px;
+ 
+}
+.contain::-webkit-scrollbar-thumb{
+    background:whitesmoke;
+    border-radius: 10px;
+}
+.rrss{
+    width: 30px;
+}
+.rrssContain{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    gap:35px;
+}

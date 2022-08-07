@@ -1,5 +1,6 @@
 .container{
-    margin-top: 100px;
+    
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,6 +15,7 @@
 }
 @media(min-width:768px){
     .container{
+        margin-top: 150px;
         font-size: 1.5rem;
         animation: presentMedia 1s;
         animation-timing-function: ease-in-out;   
@@ -66,7 +68,7 @@
     100%{
         color:white;
         width: 100%;
-        height: 100%;
+       
         font-size: 0.8rem;
                    
         

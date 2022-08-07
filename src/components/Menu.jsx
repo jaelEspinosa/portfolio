@@ -13,7 +13,7 @@ const Menu = ({handleMenu}) => {
 
         <Link onClick={handleMenu} to={'/'}><li className={styles.itemmobile}>Home</li></Link>
         <Link onClick={handleMenu} to={'/about'}><li className={styles.itemmobile}>Acerca de mi</li></Link>
-        <Link onClick={handleMenu} to={'/curriculum'}><li className={styles.itemmobile}>Curriculum Vitae</li></Link> 
+        <Link onClick={handleMenu} to={'/contacto'}><li className={styles.itemmobile}>Contacto</li></Link> 
         <Link onClick={handleMenu} to={'/proyectos'}><li className={styles.itemmobile}>Proyectos</li></Link>
     </ul>
  
