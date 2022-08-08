@@ -69,7 +69,7 @@ const Proyectos = () => {
             </p>
             <div className={styles.rrssContain}>
                <a href="https://github.com/jaelEspinosa/guitarla_next.git" target='_blank'><img className={styles.rrss}src={git} alt='github'/></a> 
-               <a href='https://guitarla-next-8xn4tf8cx-jaelespinosa.vercel.app/' target='_blank'><img className={styles.rrss}src={deployment} alt='github'/></a>  
+               <a href='https://guitarlajael.netlify.app/' target='_blank'><img className={styles.rrss}src={deployment} alt='github'/></a>  
             </div>
           </div>
         </div>
