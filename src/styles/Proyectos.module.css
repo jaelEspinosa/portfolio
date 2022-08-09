@@ -41,6 +41,10 @@
 .rrss{
     width: 30px;
 }
+.rrssLittle{
+    width: 20px;
+    margin-left: 5px;
+}
 .rrssContain{
     display: flex;
     align-items: center;
