@@ -22,7 +22,7 @@ const Proyectos = () => {
               cada uno de los personajes de la serie. 
             </p>
             <p>(Sólo vista Ordenador)</p>
-            <p className={styles.resumen}>Tecnologia: React scss </p>
+            <p className={styles.resumen}>Tecnologia: React, scss </p>
             <p className={styles.resumen}>
               librerias: React-router-dom, axios,
               i18next-browser-languagedetector
