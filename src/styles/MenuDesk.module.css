@@ -27,7 +27,7 @@
        /*  text-shadow: 2px 2px 5px white;
         color:rgb(102, 126, 161); */
         /* text-transform: uppercase; */
-        text-decoration: underline green;
+        text-decoration:underline red;
         transition: all 0.5s;
         
     }

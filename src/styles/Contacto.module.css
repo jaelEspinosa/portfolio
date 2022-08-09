@@ -19,6 +19,9 @@
     justify-content: center;
     gap:15px;
     z-index: 0;
+    animation-name: present;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
     
 }
 .formulario h2{
@@ -39,8 +42,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:5px
+    gap:5px;
+   
     
+}
+input,textarea{
+    animation-name: presentinputs;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 .button{
@@ -56,7 +65,8 @@
 
 }
 .button:hover{
-    background-color: green;
+   background-color: gray;
+
 }
 
 .campo{
@@ -64,4 +74,26 @@
     border:1px solid lightgray;
     padding: 8px;
     border-radius: 8px;
+}
+
+@keyframes present {
+    0%{
+        color:transparent;
+        width: 0%;
+    }
+    100%{
+        color: rgb(39, 38, 38);
+        width:85%;
+    }
+}
+@keyframes presentinputs {
+    0%{
+        background-color: transparent;
+        color:transparent;
+    }
+    100%{
+        background-color: white;
+        color:black;
+    }
+    
 }
