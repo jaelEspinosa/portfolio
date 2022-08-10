@@ -12,8 +12,7 @@ const About = () => {
 <h2>Acerca de mí.</h2>
     
     <p>
-      Mi nombre es José Antonio Espinosa Lucia, nací en Madrid el 7 Julio de
-      1971.
+      Mi nombre es José Antonio Espinosa Lucia, nací en Madrid y actualmente vivo en la provincia de Cádiz.
     </p>
     <p>
       Mi carrera profesional comenzó muy pronto, nada mas terminar el Bachillerato. Los primeros años fueron en el sector de las artes gráficas,
@@ -33,11 +32,13 @@ const About = () => {
     </p>
 
     <p>
-      Y ahora en actualidad, con un nuevo giro, he cursado un BootCamp FullStack Web Developer.
+      Y ahora en actualidad, con un nuevo giro, he cursado un BootCamp FullStack Web Developer. Ha sido un curso intensivo que ha durado 4 meses en el que he aprendido
+      tecnologías como HTML5, CSS3 (Preprocesadores SCSS y SASS), JavaScript, React, Angular, PHP, NodeJs y MongoDB.  
+
     </p>
 
     <p>
-      Entre mis aficiones están los videojuegos y el deporte, me encanta darle 'caña' a la play. Además de salir a correr e ir al gimnasio a 'levantar hierro' 
+      Entre mis aficiones están los videojuegos y el deporte, me encanta darle 'caña' a la play. Además de salir a correr e ir al gimnasio a 'levantar pesas' 
     </p>
 </article>
       

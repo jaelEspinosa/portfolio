@@ -26,6 +26,11 @@
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
 }
+.fotoContain{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
 
 @media(min-width:768px){
     .cardContain{

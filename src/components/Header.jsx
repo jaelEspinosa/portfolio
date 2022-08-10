@@ -13,7 +13,7 @@ const Header = () => {
      <div className={styles.svg}
           onClick={handleMenu}
           >
- {!mostrarMenu && <img src={menu}></img> } 
+ {!mostrarMenu ? <img src={menu}></img> : <div className={styles.divVacio}></div>} 
     </div>
     
     <MenuDesk />

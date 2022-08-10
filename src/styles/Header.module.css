@@ -5,11 +5,18 @@
     color:white;
     display:flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
     background-color: rgba(0, 0, 0, 0.651);
 
 }
-
+.divVacio{
+    width: 32px;
+    height: 32px;
+    background-color: black;
+}
+.svg{
+    margin:0px;
+}
 
 @media(min-width:768px){
     .svg{
