@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
     <div className={styles.header}>
-      <h1>JaelEpinosa</h1>
+      <h1>JaelEspinosa</h1>
      <div className={styles.svg}
           onClick={handleMenu}
           >
