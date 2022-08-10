@@ -17,11 +17,12 @@ const Proyectos = () => {
           <img className={styles.imagen} src={guitarLa} alt="guitarLa-app" />
           <div className={styles.description}>
             <p className={styles.resumen}>
-              Emulación Ecommerce. Se trata de una tienda de guitarras y cursos
-              de guitarra.
+            <span>Descripción:</span>
+            <p>Emulación Ecommerce. Se trata de una tienda de guitarras y cursos
+                         de guitarra.</p>
             </p>
-            <p className={styles.resumen}>Tecnologia: NextJs css </p>
-            <p className={styles.resumen}>backend: strapi</p>
+            <p className={styles.resumen}><span>Tecnología:</span><p>NextJs css </p> </p>
+            <p className={styles.resumen}><span>Backend:</span> <p>Strapi</p></p>
             <div className={styles.rrssContain}>
               <a
                 href="https://github.com/jaelEspinosa/guitarla_next.git"
@@ -31,7 +32,7 @@ const Proyectos = () => {
               </a>
               <a href="https://guitarlajael.netlify.app/" target="_blank">
                 <img className={styles.rrss} src={deployment} alt="github" />
-              </a>
+               </a>
             </div>
           </div>
         </div>
@@ -42,12 +43,15 @@ const Proyectos = () => {
           <img className={styles.imagen} src={quiosco} alt="guitarLa-app" />
           <div className={styles.description}>
             <p className={styles.resumen}>
-              Aplicación de quiosco para cafeteria. Es una app para gestionar
+            <span>Descripción:</span> 
+            <p>
+            Aplicación de quiosco para cafeteria. Es una app para gestionar
               pedidos de bebida o comida.
             </p>
-            <p className={styles.resumen}>Tecnologia: NextJs</p>
+            </p>
+            <p className={styles.resumen}><span>Tecnología:</span> <p>NextJs</p></p>
             <p className={styles.resumen}>
-              libreias: toastify, react-modal, Prisma y tailwind
+            <span>Librerías:</span> <p>toastify, react-modal, Prisma y tailwind</p>
             </p>
             <div className={styles.rrssContain}>
               <a
@@ -68,27 +72,32 @@ const Proyectos = () => {
         <div className={styles.cardContain}>
           <img className={styles.imagen} src={uptask} alt="game-of-thrones" />
           <div className={styles.description}>
-            <p className={styles.resumen}>
-              Crea y gestiona proyectos y tareas.
+            <p className={styles.resumen}><span>Descripción:</span> 
+            <p> Crea y gestiona proyectos y tareas. El administrador o creador del proyecto
+                 puede añadir modificar dichas tareas así como añadir colaboradores, éstos últimos
+                 sólo podrán ver y completar dichas tareas, quedando reservada la opción de edición 
+                 al administrador del proyecto</p> 
             </p>
             <p></p>
-            <p className={styles.resumen}>Front: React css </p>
+            <p className={styles.resumen}><span>Tecnologías:</span><p>React, css, NodeJs</p>  </p>
             <p className={styles.resumen}>
-              librerias: React-router-dom, axios, tailwind y socketIo.
+            <span>Librerías:</span> <p>React-router-dom, axios, tailwind, Express, Nodemailer, Mongoose y socketIo.</p> 
             </p>
             <p className={styles.resumen}>
-              back: Nodejs{" "}
+            <div className={styles.rrssContain}>
+            <p>Backend</p> 
               <a
                 href="https://github.com/jaelEspinosa/uptask_backend.git"
                 target="_blank"
               >
-                <img className={styles.rrssLittle} src={git} alt="github" />
-              </a>{" "}
+             <img className={styles.rrss} src={git} alt="github" /> 
+              </a>
+            </div>
+            
             </p>
-            <p className={styles.resumen}>
-              librerias: express, nodemailer, mongoose y socketIo.
-            </p>
+            
             <div className={styles.rrssContain}>
+            <p>Frontend</p>
               <a
                 href="https://github.com/jaelEspinosa/uptasck_frontend.git"
                 target="_blank"
@@ -102,7 +111,44 @@ const Proyectos = () => {
           </div>
         </div>
       </article>
+     
+
       <article className={styles.proyecto}>
+        <h2 className={styles.title}>weather App</h2>
+        <div className={styles.cardContain}>
+          <div className={styles.fotoContain}>
+            <img className={styles.imagen} src={weather} alt="weather-app" />
+          </div>
+          <div className={styles.description}>
+            <p className={styles.resumen}>
+             <span>Descripción: </span>
+             <p>App meteorológica. Si das permisos de ubicación, consulta a la api
+              wheather y renderiza la predicción meteorológica en las horas y
+              dias próximos. También tiene un buscador para encontrar la ciudad
+              deseada y consultar el clima de ésta.</p>
+              
+            </p>
+            <p className={styles.resumen}><span>Tecnología:</span> <p>React css</p> </p>
+            <p className={styles.resumen}><span>librerias:</span><p>React-router-dom, axios</p></p>
+            <div className={styles.rrssContain}>
+              <a
+                href="https://github.com/jaelEspinosa/React_weather.git"
+                target="_blank"
+              >
+                <img className={styles.rrss} src={git} alt="github" />
+              </a>
+              <a href="https://react-weather-omega.vercel.app/" target="_blank">
+                <img className={styles.rrss} src={deployment} alt="github" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <h1>Más proyectos en Angular y Js en el enlace a mi GitHub más abajo</h1>
+      </article>
+      {/* <article className={styles.proyecto}>
         <h2 className={styles.title}>Game of Thrones</h2>
         <div className={styles.cardContain}>
           <img className={styles.imagen} src={thrones} alt="game-of-thrones" />
@@ -133,37 +179,7 @@ const Proyectos = () => {
             </div>
           </div>
         </div>
-      </article>
-
-      <article className={styles.proyecto}>
-        <h2 className={styles.title}>weather App</h2>
-        <div className={styles.cardContain}>
-          <div className={styles.fotoContain}>
-            <img className={styles.imagen} src={weather} alt="weather-app" />
-          </div>
-          <div className={styles.description}>
-            <p className={styles.resumen}>
-              App meteorológica. Si das permisos de ubicación, consulta a la api
-              wheather y renderiza al predicción meteorológica en las horas y
-              dias próximos. También tiene un buscador para encontrar la ciudad
-              deseada y consultar el clima de ésta.
-            </p>
-            <p className={styles.resumen}>Tecnologia: React css </p>
-            <p className={styles.resumen}>librerias: React-router-dom, axios</p>
-            <div className={styles.rrssContain}>
-              <a
-                href="https://github.com/jaelEspinosa/React_weather.git"
-                target="_blank"
-              >
-                <img className={styles.rrss} src={git} alt="github" />
-              </a>
-              <a href="https://react-weather-omega.vercel.app/" target="_blank">
-                <img className={styles.rrss} src={deployment} alt="github" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </article>
+      </article> */}
     </div>
   );
 };

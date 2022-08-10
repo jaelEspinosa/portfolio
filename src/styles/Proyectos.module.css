@@ -1,3 +1,10 @@
+span{
+    font-weight: 800;
+    text-decoration: underline;;
+}
+h1{
+  text-align: center;
+}
 .contain{
     margin:auto;
     margin-top: 1rem;

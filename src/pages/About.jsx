@@ -20,19 +20,17 @@ const About = () => {
       
     </p>
     <p>
-      Mi primer cambio de rumbo fue 2004 cuando decidí hacer un curso de sistemas microinformáticos, ya que desde pequeño siempre me gustó el mundo
-      de la tecnología y muy en particular los ordenadores. A partir de aqui comencé como técnico en Pc City, dando servicio postventa, reparando y configurando
+      Mi primer cambio de rumbo fue 2004 cuando decidí hacer un curso de sistemas microinformáticos. A partir de aqui comencé como técnico en Pc City, dando servicio postventa, reparando y configurando
       ordenadores a nuestros clientes. 
       A finales de 2005 decidí hacer un nuevo curso, en este caso administración de redes, para ampliar los conocimientos que ya habia adquirido en el curso anterior.
     </p>
     <p>
       Después de esta etapa, pasé a fomar parte de Phone House, como asesor al cliente en servicios 
-      de telefonía, internet, tv y energía. Fueron casi 10 años enfocado al cliente y a la venta por 
-      objetivos.
+      de telefonía, internet, tv y energía. Durante este tiempo he fortalecido mucho la comunicación y el trabajo en equipo.
     </p>
 
     <p>
-      Y ahora en actualidad, con un nuevo giro, he cursado un BootCamp FullStack Web Developer. Ha sido un curso intensivo que ha durado 4 meses en el que he aprendido
+       Ahora en la actualidad, con un nuevo giro, he cursado un BootCamp FullStack Web Developer. Ha sido un curso inmersivo que ha durado 4 meses en el que he aprendido
       tecnologías como HTML5, CSS3 (Preprocesadores SCSS y SASS), JavaScript, React, Angular, PHP, NodeJs y MongoDB.  
 
     </p>

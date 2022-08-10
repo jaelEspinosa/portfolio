@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 import foto from "../img/foto_transparente_ruido.png";
+
 const Home = () => {
   return (
     <>

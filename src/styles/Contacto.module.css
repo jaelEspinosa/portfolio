@@ -1,9 +1,6 @@
 
 .formulario{
-    background-image: url('../img/sobre-vertical.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: gray;
     border-radius: 8px;
     box-shadow: 1px 1px 3px white;
     padding: 20px;
@@ -33,6 +30,10 @@
     .formulario{
         margin-top: 140px;
         margin-bottom: 150px;
+        background-image: url('../img/sobre-vertical.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 .input{
