@@ -16,7 +16,7 @@ h1{
     overflow-y: scroll;
     border-radius: 8px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.658);
+    background-color: rgba(0, 0, 0, 0.815);
     animation-name: present;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -80,7 +80,7 @@ h1{
     }
     100%{
         color:white;
-        background-color: rgba(0, 0, 0, 0.658);;
+        background-color: rgba(0, 0, 0, 0.815);
         border: 1px solid white;
     }
     

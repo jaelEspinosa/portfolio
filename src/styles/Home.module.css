@@ -12,6 +12,9 @@
   animation-timing-function: ease-in-out;
   margin-bottom: 130px;
 }
+.tecnologies{
+  display: none;
+}
 @media (min-width: 768px) {
   .container {
     z-index: 1;
@@ -24,13 +27,19 @@
 
 @media (min-width: 1520px) {
   body {
-    background-image: url("../img/foto_transparente_ruido.png");
-    background-size: 65%;
-    background-position: -25%;
+    background-image: url("../img/setup.jpg");
+    background-size: 85%;
+    background-position: -150%;
     background-repeat: no-repeat;   
   }
   .foto{
     visibility: hidden;
+  }
+  .tecnologies{
+    display: initial;
+    position:absolute;
+    top:30%;
+    right:20%;
   }
 }
 

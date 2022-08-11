@@ -20,9 +20,10 @@ const About = () => {
       
     </p>
     <p>
-      Mi primer cambio de rumbo fue 2004 cuando decidí hacer un curso de sistemas microinformáticos. A partir de aqui comencé como técnico en Pc City, dando servicio postventa, reparando y configurando
-      ordenadores a nuestros clientes. 
-      A finales de 2005 decidí hacer un nuevo curso, en este caso administración de redes, para ampliar los conocimientos que ya habia adquirido en el curso anterior.
+      Mi primer cambio de rumbo fue 2004 cuando decidí hacer un curso de sistemas microinformáticos. 
+      A partir de aqui comencé como técnico en Pc City, dando servicio postventa, reparando y configurando
+      ordenadores.
+      A finales de 2005 decidí hacer un nuevo curso, en este caso administración de redes.
     </p>
     <p>
       Después de esta etapa, pasé a fomar parte de Phone House, como asesor al cliente en servicios 

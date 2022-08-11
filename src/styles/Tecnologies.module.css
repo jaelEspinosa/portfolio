@@ -1,0 +1,21 @@
+.contain{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    width: 400px;
+    height: 400px;
+   
+}
+
+.icons{
+    width: 95px;
+    transition: all 4s;
+    transform:rotate(360deg);
+}
+.icons:hover{
+    transform:rotate(-360deg);
+    transition: all 4s;
+}
+
