@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/Tecnologies.module.css'
-import angular from '../img/angular.png'
+import angular from '../img/Angular.png'
 import atom from '../img/atom.png'
 import html5 from '../img/html5.png'
 import javascript from '../img/java-script.png'
