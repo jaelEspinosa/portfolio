@@ -1,5 +1,5 @@
 .contain {
-  background-color: rgba(0, 0, 0, 0.897);
+  background-color: rgba(0, 0, 0, 0.500);
   color: white;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@
     color: transparent;
   }
   100%{
-    background-color: rgba(0, 0, 0, 0.897);;
+    background-color: rgba(0, 0, 0, 0.500);;
     color:white;
   }
   

@@ -1,21 +1,39 @@
-.contain{
-    position: absolute;
+.contain{   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 40px;
+    
    
 }
-
 .icons{
-    width: 95px;
-    transition: all 4s;
-    transform:rotate(360deg);
+    width: 25px;
 }
-.icons:hover{
-    transform:rotate(-360deg);
-    transition: all 4s;
+@media (min-width:1520px) {
+    .contain{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items:center;
+        width: 400px;
+        height: 400px;
+       
+    }
+    
+
+    .icons{
+        width: 95px;
+        transition: all 4s;
+        transform:rotate(360deg);
+    }
+    .icons:hover{
+        transform:rotate(-360deg);
+        transition: all 4s;
+    } 
 }
+
+
 

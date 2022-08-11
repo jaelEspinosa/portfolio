@@ -12,10 +12,10 @@ const Teconolgies = () => {
     <div className={styles.contain}>
       <img  className={styles.icons} src={angular} alt='angular' />
       <img  className={styles.icons} src={atom} alt='atom' />
-      <img  className={styles.icons} src={html5} alt='html5' />
+      <img  className={styles.icons} src={node} alt='node' />
       <img  className={styles.icons} src={javascript} alt='javascript' />
       <img  className={styles.icons} src={css3} alt='css3' />
-      <img  className={styles.icons} src={node} alt='node' />
+      <img  className={styles.icons} src={html5} alt='html5' />
       <img  className={styles.icons} src={sass} alt='sass' />
 
     </div>

@@ -10,10 +10,12 @@
   text-align: center;
   animation: present 3s;
   animation-timing-function: ease-in-out;
-  margin-bottom: 130px;
+  margin-bottom: 60px;
 }
 .tecnologies{
-  display: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 768px) {
   .container {
@@ -24,10 +26,15 @@
     animation-timing-function: ease-in-out;
   }
 }
-
+body{
+  background-image:linear-gradient(to right, rgb(0 0 0 / .4), rgb(0 0 0 / .9)), url("../img/setup.jpg");
+  background-size: 200%;
+  background-position: -170px;
+  background-repeat: no-repeat; 
+}
 @media (min-width: 1520px) {
   body {
-    background-image: url("../img/setup.jpg");
+    background-image:linear-gradient(to right, rgb(0 0 0 / .4), rgb(0 0 0 / .9)), url("../img/setup.jpg");
     background-size: 85%;
     background-position: -150%;
     background-repeat: no-repeat;   
