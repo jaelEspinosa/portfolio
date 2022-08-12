@@ -39,9 +39,9 @@ body{
     background-position: -150%;
     background-repeat: no-repeat;   
   }
-  .foto{
+  /* .foto{
     visibility: hidden;
-  }
+  } */
   .tecnologies{
     display: initial;
     position:absolute;

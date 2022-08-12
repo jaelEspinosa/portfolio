@@ -22,9 +22,9 @@ const Proyectos = () => {
                          de guitarra.</p>
             
             <p className={styles.resumen}><span>Tecnologías:</span></p>
-            <p>NextJs, Css </p>
+            <p>NEXTJS, CSS </p>
             <p className={styles.resumen}><span>Backend:</span></p>
-            <p>Strapi</p>
+            <p>STRAPI</p>
             <div className={styles.rrssContain}>
               <a
                 href="https://github.com/jaelEspinosa/guitarla_next.git"
@@ -48,7 +48,7 @@ const Proyectos = () => {
             <p>Aplicación de quiosco para cafeteria. Es una app para gestionar
               pedidos de bebida o comida.</p>
             <p className={styles.resumen}><span>Tecnología:</span></p>
-            <p>NextJs</p>
+            <p>NEXTJS</p>
             <p className={styles.resumen}><span>Librerías:</span></p>
             <p>Toastify, React-Modal, Prisma y Tailwind</p>
             <div className={styles.rrssContain}>
@@ -78,7 +78,7 @@ const Proyectos = () => {
             
             
             <p className={styles.resumen}><span>Tecnologías:</span></p>
-            <p>React, Css, NodeJs</p>  
+            <p>REACT, CSS, NODEJS</p>  
             <p className={styles.resumen}>
             <span>Librerías:</span></p>
             <p>React-Router-Dom, Axios, Tailwind, Express, Nodemailer, Mongoose y SocketIo.</p> 
@@ -128,8 +128,8 @@ const Proyectos = () => {
               
           
             <p className={styles.resumen}><span>Tecnologías:</span></p>
-            <p>React, Css</p> 
-            <p className={styles.resumen}><span>librerias:</span></p>
+            <p>REACT, CSS</p> 
+            <p className={styles.resumen}><span>Librerias:</span></p>
             <p>React-Router-Dom, Axios</p>
             <div className={styles.rrssContain}>
               <a

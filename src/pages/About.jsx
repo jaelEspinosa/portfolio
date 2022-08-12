@@ -5,12 +5,14 @@ import foto from '../img/fotosiluetaok.jpg'
 const About = () => {
   return (
     <div className={styles.contain}>
+    {/* <figure className={styles.containFoto}>
+      <img className={styles.foto} src={foto} alt='foto-perfil'/>
+    </figure> */}
+<article>
+<h2>Acerca de mí.</h2>
     <figure className={styles.containFoto}>
       <img className={styles.foto} src={foto} alt='foto-perfil'/>
     </figure>
-<article>
-<h2>Acerca de mí.</h2>
-    
     <p>
       Mi nombre es José Antonio Espinosa Lucia, nací en Madrid y actualmente vivo en la provincia de Cádiz.
     </p>
@@ -34,7 +36,7 @@ const About = () => {
 
     <p>
        Ahora en la actualidad, con un nuevo giro, he cursado un BootCamp FullStack Web Developer. Ha sido un curso inmersivo que ha durado 4 meses en el que he aprendido
-      tecnologías como HTML5, CSS3 (Preprocesadores SCSS y SASS), JavaScript, React, Angular, PHP, NodeJs y MongoDB.  
+      tecnologías como HTML5, CSS3 (Preprocesadores SCSS y SASS), JAVASCRIPT, REACTt, ANGULAR, PHP, NODEJS y MONGODB.  
 
     </p>
 
