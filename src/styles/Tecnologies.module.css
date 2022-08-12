@@ -3,13 +3,27 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
-    width: 250px;
+    width: 350px;
     height: 40px;
     
    
 }
 .icons{
     width: 25px;
+}
+@media (min-width:768px) {
+   
+    
+
+    .icons{
+        width: 45px;
+        transition: all 4s;
+        transform:rotate(360deg);
+    }
+    .icons:hover{
+        transform:rotate(-360deg);
+        transition: all 4s;
+    } 
 }
 @media (min-width:1520px) {
     .contain{
@@ -34,6 +48,7 @@
         transition: all 4s;
     } 
 }
+
 
 
 

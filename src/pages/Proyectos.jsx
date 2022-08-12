@@ -22,7 +22,7 @@ const Proyectos = () => {
                          de guitarra.</p>
             
             <p className={styles.resumen}><span>Tecnologías:</span></p>
-            <p>NextJs, css </p>
+            <p>NextJs, Css </p>
             <p className={styles.resumen}><span>Backend:</span></p>
             <p>Strapi</p>
             <div className={styles.rrssContain}>
@@ -50,7 +50,7 @@ const Proyectos = () => {
             <p className={styles.resumen}><span>Tecnología:</span></p>
             <p>NextJs</p>
             <p className={styles.resumen}><span>Librerías:</span></p>
-            <p>toastify, react-modal, Prisma y tailwind</p>
+            <p>Toastify, React-Modal, Prisma y Tailwind</p>
             <div className={styles.rrssContain}>
               <a
                 href="https://github.com/jaelEspinosa/Quioscoapp_nextJs.git"
@@ -78,13 +78,13 @@ const Proyectos = () => {
             
             
             <p className={styles.resumen}><span>Tecnologías:</span></p>
-            <p>React, css, NodeJs</p>  
+            <p>React, Css, NodeJs</p>  
             <p className={styles.resumen}>
             <span>Librerías:</span></p>
-            <p>React-router-dom, axios, tailwind, Express, Nodemailer, Mongoose y socketIo.</p> 
+            <p>React-Router-Dom, Axios, Tailwind, Express, Nodemailer, Mongoose y SocketIo.</p> 
             <div className={styles.resumen}>
             <div className={styles.rrssContain}>
-            <p>Backend</p> 
+            <p><span>Backend</span></p> 
               <a
                 href="https://github.com/jaelEspinosa/uptask_backend.git"
                 target="_blank"
@@ -96,7 +96,7 @@ const Proyectos = () => {
             </div>
             
             <div className={styles.rrssContain}>
-            <p>Frontend</p>
+            <p><span>Frontend</span></p>
               <a
                 href="https://github.com/jaelEspinosa/uptasck_frontend.git"
                 target="_blank"
@@ -128,9 +128,9 @@ const Proyectos = () => {
               
           
             <p className={styles.resumen}><span>Tecnologías:</span></p>
-            <p>React, css</p> 
+            <p>React, Css</p> 
             <p className={styles.resumen}><span>librerias:</span></p>
-            <p>React-router-dom, axios</p>
+            <p>React-Router-Dom, Axios</p>
             <div className={styles.rrssContain}>
               <a
                 href="https://github.com/jaelEspinosa/React_weather.git"

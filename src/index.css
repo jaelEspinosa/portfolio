@@ -5,6 +5,7 @@ body{
   
 }
 .app-container{
+
   font-family: 'Roboto', sans-serif;  
   margin: auto;
   max-width: 1200px;
@@ -13,4 +14,9 @@ body{
 }
 h1{
     padding: 10px;
+}
+@media(min-width:768px){
+  body{
+    overflow: hidden;
+  }
 }

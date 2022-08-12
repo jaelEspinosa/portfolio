@@ -73,7 +73,7 @@ const Curriculum = () => {
            className={styles.campo}
             name="mensaje"
             id="mensaje"
-            cols="40"
+            cols="38"
             rows="10"
             {...register("mensaje", { required: true, minLength: 25 })}
           />
