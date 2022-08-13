@@ -37,7 +37,7 @@ const About = () => {
 
     <p>
        Ahora en la actualidad, con un nuevo giro, he cursado un BootCamp FullStack Web Developer. Ha sido un curso inmersivo que ha durado 4 meses en el que he aprendido
-      tecnologías como HTML5, CSS3 (Preprocesadores SCSS y SASS), JAVASCRIPT, REACTt, ANGULAR, PHP, NODEJS y MONGODB.  
+      tecnologías como HTML5, CSS3 (Preprocesadores SCSS y SASS), JAVASCRIPT, REACT, ANGULAR, PHP, NODEJS y MONGODB.  
 
     </p>
 
