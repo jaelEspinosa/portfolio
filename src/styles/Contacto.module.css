@@ -52,6 +52,9 @@ input,textarea{
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
 }
+textarea{
+    resize: none;
+}
 
 .button{
     border: 1px solid white;

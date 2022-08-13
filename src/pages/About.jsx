@@ -17,17 +17,18 @@ const About = () => {
       Mi nombre es José Antonio Espinosa Lucia, nací en Madrid y actualmente vivo en la provincia de Cádiz.
     </p>
     <p>
-      Mi carrera profesional comenzó al terminar el Bachillerato, en el sector de las artes gráficas,
+      Mi carrera profesional comenzó al terminar  Bachillerato, en el sector de las artes gráficas,
       pasando por imprenta, fotomecánica (hoy dia diseño gráfico), y encuadernación. 
       
     </p>
     <p>
-      Mi primer cambio de rumbo fue 2004 cuando decidí hacer un curso de sistemas microinformáticos. 
-      A partir de aqui comencé como técnico en Pc City, dando servicio postventa, reparando y configurando
+      Mi primer cambio de rumbo fue 2004 cuando decidí hacer un curso de sistemas microinformáticos. Y posteriormente
+      otro de administración de redes.
+      A partir de ahí comencé como técnico en Pc City, dando servicio postventa, reparando y configurando
       ordenadores.
-      A finales de 2005 decidí hacer un nuevo curso, en este caso administración de redes.
+     
     </p>
-    <p> Esta experiencia me enseñó la importancia de la comunicación y el trabajo en equipo.</p>
+    <p> Esta experiencia laboral, me enseñó la importancia de la comunicación y el trabajo en equipo.</p>
     <p>
       Después de esta etapa, pasé a fomar parte de Phone House, como asesor al cliente en servicios 
       de telefonía, internet, tv y energía. En esta etapa además de fortalecer la comunicación y el trabajo en equipo, aprendí
