@@ -79,7 +79,7 @@ const Curriculum = () => {
           />
           <FormError error={errors.mensaje} />
         </div>
-        <input className={styles.button} type="submit" value="enviar" />
+        <input className={styles.button} type="submit" value="ENVIAR" />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_next" value="http://localhost:5173" />
       </form>
