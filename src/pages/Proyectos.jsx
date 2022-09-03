@@ -1,16 +1,51 @@
 import React from "react";
 import styles from "../styles/Proyectos.module.css";
-import thrones from "../img/gameOfThrones.jpg";
 import git from "../img/github.png";
 import deployment from "../img/deployment.png";
 import weather from "../img/weather.jpg";
 import guitarLa from "../img/guitarLa.jpg";
 import quiosco from "../img/quiosco.jpg";
 import uptask from "../img/upTask.jpg";
+import productHunt from "../img/productHunt.jpg";
 
 const Proyectos = () => {
   return (
+
+
+    
     <div className={styles.contain}>
+    <article className={styles.proyecto}>
+    <h2 className={styles.title}>Product-Hunt-clon</h2>
+        <div className={styles.cardContain}>
+          <div className={styles.fotoContain}>
+            <img className={styles.imagen} src={productHunt} alt="weather-app" />
+          </div>
+          <div className={styles.description}>
+            <p className={styles.resumen}>
+             <span>Descripción: </span></p>
+             <p>Aplicación web en la que puedes publicar tus proyectos o productos. Los usuarios registrados podrán votar y comentar dichos proyectos.</p>
+              
+          
+            <p className={styles.resumen}><span>Tecnologías:</span></p>
+            <p>NEXT y FIREBASE</p> 
+            <p className={styles.resumen}><span>Librerias:</span></p>
+            <p>@emotion styled components</p>
+            <div className={styles.rrssContain}>
+            <a
+                href="https://github.com/jaelEspinosa/ProductHunt.git"
+                target="_blank"
+              >
+                <img className={styles.rrss} src={git} alt="github" />
+              </a>
+              <a href="https://product-hunt-flame.vercel.app/" target="_blank">
+                <img className={styles.rrss} src={deployment} alt="github" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+     
       <article className={styles.proyecto}>
         <h2 className={styles.title}>GuitarLa</h2>
         <div className={styles.cardContain}>
