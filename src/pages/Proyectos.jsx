@@ -5,7 +5,7 @@ import deployment from "../img/deployment.png";
 import weather from "../img/weather.jpg";
 import guitarLa from "../img/guitarLa.jpg";
 import quiosco from "../img/quiosco.jpg";
-import uptask from "../img/upTask.jpg";
+import tesloclon1 from "../img/tesloclon1.jpg";
 import productHunt from "../img/productHunt.jpg";
 
 const Proyectos = () => {
@@ -14,6 +14,47 @@ const Proyectos = () => {
 
     
     <div className={styles.contain}>
+
+<article className={styles.proyecto}>
+        <h2 className={styles.title}>TesloShop</h2>
+        <div className={styles.cardContain}>
+        <div className={styles.fotoContain}>
+          <img className={styles.imagen} src={tesloclon1} alt="game-of-thrones" />
+        </div>
+          <div className={styles.description}>
+            <p className={styles.resumen}><span>Descripción:</span> </p>
+            <p> Ecommerce de ropa.</p> 
+            <p>Tiene dos entornos, cliente y admin.</p>  
+            <p>En el entorno cliente tiene las funciones propias de un ecommerce. 
+            En el entorno admin, se pueden ver todas las ordenes usuarios y productos, pudiendo
+            editar y añadir nuevos productos</p> 
+            
+            
+            <p className={styles.resumen}><span>Tecnologías:</span></p>
+            <p>NEXT JS, MATERIAL UI, NODEJS</p>  
+            <p className={styles.resumen}>
+            <span>Librerías:</span></p>
+            <p>Next Auth, Axios, Material Ui, React Hook Form, Paypal, Js-Cookie y Mongoose.</p> 
+          
+            
+            <div className={styles.rrssContain}>
+            <p><span>Full Stack</span></p>
+              <a
+                href="https://github.com/jaelEspinosa/tesloShopClon.git"
+                target="_blank"
+              >
+                <img className={styles.rrss} src={git} alt="github" />
+              </a>
+              <a href="https://tesloshopjael.herokuapp.com/" target="_blank">
+                <img className={styles.rrss} src={deployment} alt="github" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+
     <article className={styles.proyecto}>
     <h2 className={styles.title}>Product-Hunt-clon</h2>
         <div className={styles.cardContain}>
@@ -100,51 +141,7 @@ const Proyectos = () => {
           </div>
         </div>
       </article>
-      <article className={styles.proyecto}>
-        <h2 className={styles.title}>UpTask Mern</h2>
-        <div className={styles.cardContain}>
-          <img className={styles.imagen} src={uptask} alt="game-of-thrones" />
-          <div className={styles.description}>
-            <p className={styles.resumen}><span>Descripción:</span> </p>
-            <p> Crea y gestiona proyectos y tareas. El administrador o creador del proyecto
-                 puede añadir modificar dichas tareas así como añadir colaboradores, éstos últimos
-                 sólo podrán ver y completar dichas tareas, quedando reservada la opción de edición 
-                 al administrador del proyecto</p> 
-            
-            
-            <p className={styles.resumen}><span>Tecnologías:</span></p>
-            <p>REACT, CSS, NODEJS</p>  
-            <p className={styles.resumen}>
-            <span>Librerías:</span></p>
-            <p>React-Router-Dom, Axios, Tailwind, Express, Nodemailer, Mongoose y SocketIo.</p> 
-            <div className={styles.resumen}>
-            <div className={styles.rrssContain}>
-            <p><span>Backend</span></p> 
-              <a
-                href="https://github.com/jaelEspinosa/uptask_backend.git"
-                target="_blank"
-              >
-             <img className={styles.rrss} src={git} alt="github" /> 
-              </a>
-            </div>
-            
-            </div>
-            
-            <div className={styles.rrssContain}>
-            <p><span>Frontend</span></p>
-              <a
-                href="https://github.com/jaelEspinosa/uptasck_frontend.git"
-                target="_blank"
-              >
-                <img className={styles.rrss} src={git} alt="github" />
-              </a>
-              <a href="https://uptask-mern.netlify.app/" target="_blank">
-                <img className={styles.rrss} src={deployment} alt="github" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </article>
+      
      
 
       <article className={styles.proyecto}>
