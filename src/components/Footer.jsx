@@ -12,7 +12,7 @@ const Footer = () => {
      {/*  <a href='mailto:jaelespinosa@gmail.com'> <img src={gmail} alt='logo-mail'/> </a>   */}
       <a  href='https://github.com/jaelespinosa' target='_blank'> <img src={git} alt='logo-git'/></a>  
       <a href='https://www.linkedin.com/in/jose-antonio-espinosa-lucia/' target='_blank'> <img src={linkedin} alt='logo-linkedin'/></a> 
-      <a href='CV_Jose_Antonio_Espinosa_Fullstack.pdf' target='_blank' download='cv_jaelespinosa.pdf'><img src={CV} alt='Descargar-CV'/></a>  
+      <a href='cvJaelEspinosa_1.pdf' target='_blank' download='cv_jaelespinosa.pdf'><img src={CV} alt='Descargar-CV'/></a>  
     </div>
   )
 }
