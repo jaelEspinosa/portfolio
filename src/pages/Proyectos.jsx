@@ -108,7 +108,7 @@ const Proyectos = () => {
               >
                 <img className={styles.rrss} src={git} alt="github" />
               </a>
-              <a href="https://guitarlajael.netlify.app/" target="_blank">
+              <a href="https://guitarla-next-hxuicvnan-jaelespinosa.vercel.app" target="_blank">
                 <img className={styles.rrss} src={deployment} alt="github" />
                </a>
             </div>
