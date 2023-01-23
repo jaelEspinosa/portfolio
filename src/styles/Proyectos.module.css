@@ -26,7 +26,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: justify;
     gap:15px;
     animation-name: presentImg;

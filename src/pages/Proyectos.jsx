@@ -7,6 +7,7 @@ import guitarLa from "../img/guitarLa.jpg";
 import quiosco from "../img/quiosco.jpg";
 import tesloclon1 from "../img/tesloclon1.jpg";
 import productHunt from "../img/productHunt.jpg";
+import upTask from "../img/upTask.jpg";
 
 const Proyectos = () => {
   return (
@@ -46,6 +47,56 @@ const Proyectos = () => {
                 <img className={styles.rrss} src={git} alt="github" />
               </a>
               <a href="https://tesloshopclonjael.vercel.app/" target="_blank">
+                <img className={styles.rrss} src={deployment} alt="github" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+      <article className={styles.proyecto}>
+        <h2 className={styles.title}>upTask</h2>
+        <div className={styles.cardContain}>
+        
+          <img className={styles.imagen} src={upTask} alt="upTask" />
+      
+          <div className={styles.description}>
+            <p className={styles.resumen}><span>Descripción:</span> </p>
+            <p> Gestion de Proyectos</p> 
+             
+            <p>Es una Spa en la que los usuarios de un proyecto ven las tareas asignadas y los plazos de realización de 
+                   las mismas.</p> 
+            <p>El creador del proyecto es el único que puede editar las tareas, los colaboradores solo las pueden ver y
+            poner si están finalizadas</p>
+            
+            
+            <p className={styles.resumen}><span>Tecnologías:</span></p>
+            <p>REACT, EXPRESS, MONGO, NODE-JS. (MERN)</p>  
+            <p className={styles.resumen}>
+            <span>Librerías:</span></p>
+            <p>Tailwind, Axios, React Hook Form, React Router Dom, Socket IO, NodeMailer</p> 
+          
+            
+            <div className={styles.rrssContain}>
+            <p><span>Backend: </span></p>
+              <a
+                href="https://github.com/jaelEspinosa/uptask_backend.git"
+                target="_blank"
+              >
+                <img className={styles.rrss} src={git} alt="github" />
+              </a>
+            
+            </div>
+            <div className={styles.rrssContain}>
+            <p><span>Front: </span></p>
+              <a
+                href="https://github.com/jaelEspinosa/uptasck_frontend.git"
+                target="_blank"
+              >
+                <img className={styles.rrss} src={git} alt="github" />
+              </a>
+              <a href="https://uptask-mern.netlify.app" target="_blank">
                 <img className={styles.rrss} src={deployment} alt="github" />
               </a>
             </div>
