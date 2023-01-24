@@ -6,6 +6,7 @@ import Contacto from "./pages/Contacto";
 import Proyectos from "./pages/Proyectos";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <div className="app-container">
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/proyectos" element={<Proyectos />} />
+          
         </Routes>
         <Footer/>
       </Router>
