@@ -1,6 +1,39 @@
 export const proyectos = [
     {
         id: 1,
+        nombre: 'BudgetApp',
+        imagen: './budgetapp2.jpg',
+        descripcion: [
+            'Gestion de Presupuestos',
+          
+            'App, para empresa de reformas y/o construcción para gestionar presupuestos.',
+            'Los presupuestos estan divididos en capitulos y éstos a su vez en lotes.'
+        ],
+        tecnologias: [
+            'REACT',
+            'NODEJS'
+        ],
+        librerias: [
+            
+            'Axios',
+            'Tailwind',
+            'Redux',
+            'Redux Toolkit',
+            'NodeMailer',
+            'Express',
+            'Mongoose'
+
+        ],
+        url: {
+            urlBackGit:'https://github.com/jaelEspinosa/budgetApp_back.git',
+            urlFrontGit:'https://github.com/jaelEspinosa/budgetApp_front.git',
+            urlDeploy:'https://budget-app-front.vercel.app'
+        }
+
+        
+    },
+    {
+        id: 1,
         nombre: 'TesloShop',
         imagen: './tesloclon1.jpg',
         descripcion: [
