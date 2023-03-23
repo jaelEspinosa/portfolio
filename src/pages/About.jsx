@@ -8,7 +8,7 @@ const About = () => {
     {/* <figure className={styles.containFoto}>
       <img className={styles.foto} src={foto} alt='foto-perfil'/>
     </figure> */}
-<article>
+<article className={styles.containArticle}>
 <h2>Acerca de mí.</h2>
     <figure className={styles.containFoto}>
       <img className={styles.foto} src={foto} alt='foto-perfil'/>

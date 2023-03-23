@@ -1,11 +1,6 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import styles from '../styles/Menu.module.css'
-import home from '../img/home.png'
-import about from '../img/about.png'
-import contact from '../img/contact.png'
-import proyects from '../img/proyects.png'
-import close from '../img/close.png'
 
 const Menu = ( {handleMenu} ) => {
  
@@ -15,13 +10,13 @@ const Menu = ( {handleMenu} ) => {
     <div
             onClick={handleMenu} 
             className={styles.cerrar}
-            ><img className={styles.icons}src={close} alt='close'/>
+            ><i class="fa-sharp fa-solid fa-circle-xmark"></i>
         </div>
 
-        <Link onClick={handleMenu} to={'/'}><li className={styles.itemmobile}><img className={styles.icons}src={home} alt='home'/>Inicio</li></Link>
-        <Link onClick={handleMenu} to={'/about'}><li className={styles.itemmobile}><img className={styles.icons}src={about} alt='aboutme'/> Acerca de mi</li></Link>
-        <Link onClick={handleMenu} to={'/proyectos'}><li className={styles.itemmobile}><img className={styles.icons}src={proyects} alt='proyects'/> Proyectos</li></Link>
-        <Link onClick={handleMenu} to={'/contacto'}><li className={styles.itemmobile}><img className={styles.icons}src={contact} alt='contact'/>Contacto</li></Link> 
+        <Link onClick={handleMenu} to={'/'}><li className={styles.itemmobile}><i className="fa-solid fa-house"></i>Inicio</li></Link>
+        <Link onClick={handleMenu} to={'/about'}><li className={styles.itemmobile}><i className="fa-sharp fa-solid fa-circle-info"></i> Acerca de mi</li></Link>
+        <Link onClick={handleMenu} to={'/proyectos'}><li className={styles.itemmobile}><i className="fa-solid fa-desktop"></i> Proyectos</li></Link>
+        <Link onClick={handleMenu} to={'/contacto'}><li className={styles.itemmobile}><i className="fa-solid fa-address-card"></i>Contacto</li></Link> 
     </ul>
  
 </nav>

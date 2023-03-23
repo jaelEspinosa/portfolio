@@ -7,13 +7,13 @@
     list-style-type: none;
     font-size: 16px;
     font-weight:400;
-    animation: menu-move 0.5s;   
+    animation: menu-move 0.1s;   
     overflow-y: hidden;
     border-radius: 10px;
     box-shadow: 2px 2px 8px gray;
     text-decoration: none;
-    height: 125px;
-    background-color: rgba(29, 26, 26, 0.856);
+    height: 130px;
+    background-color: rgba(29, 26, 26, 0.918);
 }
 @media (min-width:450px) {
     .mobile{
@@ -30,10 +30,11 @@
     
 }
 .itemmobile{
+  
   display:flex;
   align-items: center;
   gap:15px;
-  margin: 8px 2px;
+  margin: 15px 2px;
 }
 
 
@@ -45,12 +46,14 @@
  
 }
 @keyframes menu-move {
-    0%{
+    0%{ 
+        background-color: transparent;
         height: 0px;
         color:rgba(255, 255, 255, 0.171);
         box-shadow: 2px 2px 8px rgba(128, 128, 128, 0.24);
     }
     100%{
+        background-color: rgba(29, 26, 26, 0.918);;
         height:125px;
         color:rgb(255, 255, 255);
         box-shadow: 2px 2px 8px rgb(128, 128, 128);
@@ -58,6 +61,7 @@
     
 }
 .cerrar{
+    color:white;
     cursor:pointer;
     position:absolute;
     top:10px;

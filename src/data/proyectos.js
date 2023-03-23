@@ -1,6 +1,6 @@
 export const proyectos = [
     {
-        id: 1,
+        id: 0,
         nombre: 'BudgetApp',
         imagen: './budgetapp2.jpg',
         descripcion: [
@@ -198,5 +198,33 @@ export const proyectos = [
 
         
     },
-   
+    {
+        id: 7,
+        nombre: 'Paises App',
+        imagen: './paises.jpg',
+        descripcion: [
+            'Aplicación web, que consumiendo una Api, nos da información y ubicación de todos los paises del mundo. Los puedes buscar por Nombre, por Capital, o por Región',
+            
+        ],
+        tecnologias: [
+            'ANGULAR',
+            'TypeScript',
+            'CSS',
+            
+            ],
+        librerias: [          
+            
+            'Leaflet',
+            'RxJs',
+            'Animate.css',
+            'Bootstrap'
+            
+         
+       ],
+        url: {
+            urlBackGit:'',
+            urlFrontGit:'https://github.com/jaelEspinosa/Angular-paisApp.git',
+            urlDeploy:'https://ngpaisesapp.netlify.app'
+        }
+    }
 ]
