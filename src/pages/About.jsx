@@ -41,9 +41,9 @@ const About = () => {
 
     </p>
 
-    <p>
+    {/* <p>
       Entre mis aficiones están los videojuegos y el deporte, me encanta darle 'caña' a la play. Además de salir a correr e ir al gimnasio a 'levantar pesas' 
-    </p>
+    </p> */}
 </article>
       
     </div>

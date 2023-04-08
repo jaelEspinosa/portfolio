@@ -1,22 +1,26 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-import foto from "../img/foto_transparente_ruido.png";
+//import foto from "../img/foto_transparente_ruido.png";
+//import foto from "../img/logoJael2_transp_blanco.png";
+import foto from "../img/logoJaelEspinosa2_transp.png";
 import Tecnologies from "../components/Tecnologies";
+
+
 
 const Home = () => {
   return (
     <>
    
     <div className={styles.container}>
-      <h2>¡Hola soy Jose Antonio!</h2>
+      <h2>¡Hola, bienvenido!</h2>
       
       <div className={styles.contfoto}>
-        <img className={styles.foto} src={foto} alt="foto-perfil"></img>
+        <img className={styles.foto} src={foto} alt="logo-perfil"></img>
         
       </div>
         
       
-      <h2>Full Stack Dev</h2>
+      <h2>A mi PortFolio</h2>
     </div>
     <div className={styles.tecnologies}>
     

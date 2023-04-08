@@ -10,7 +10,7 @@ const Menu = ( {handleMenu} ) => {
     <div
             onClick={handleMenu} 
             className={styles.cerrar}
-            ><i class="fa-sharp fa-solid fa-circle-xmark"></i>
+            ><i className="fa-sharp fa-solid fa-circle-xmark"></i>
         </div>
 
         <Link onClick={handleMenu} to={'/'}><li className={styles.itemmobile}><i className="fa-solid fa-house"></i>Inicio</li></Link>

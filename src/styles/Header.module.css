@@ -23,3 +23,22 @@
         display:none;
     }
 }
+
+
+@media(max-width:768px){
+    .title{
+        font-size: 18px;
+    }
+}
+
+.contFoto{
+    width: 40px;
+    height: 40px;   
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.contFoto img{
+    width: 100%;
+}
