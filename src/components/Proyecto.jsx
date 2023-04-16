@@ -28,14 +28,14 @@ const Proyecto = ({ proyecto }) => {
             <span>Tecnologías:</span>
           </p>
           {proyecto.tecnologias.map((tec, index) => (
-            <p key={index} style={{ display: "inline", paddingRight:'15px' }}>{tec},</p>
+            <p key={index} style={{ display: "inline", paddingRight:'15px' }}>{tec}{index === proyecto.tecnologias.length-1 ? '.' : ', '}  </p>
           ))}
 
           <p className={styles.resumen}>
             <span>Librerías:</span>
           </p>
           {proyecto.librerias.map((lib, index) => (
-            <p key={ index } style={{ display: "inline", paddingRight:'8px'}}>{lib},</p>
+            <p key={ index } style={{ display: "inline", paddingRight:'8px'}}>{lib} {index === proyecto.librerias.length-1 ? '.' : ', '} </p>
           ))}
 
           <div className={styles.rrssContain}>
