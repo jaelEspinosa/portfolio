@@ -226,5 +226,33 @@ export const proyectos = [
             urlFrontGit:'https://github.com/jaelEspinosa/Angular-paisApp.git',
             urlDeploy:'https://ngpaisesapp.netlify.app'
         }
+    },
+    {
+        id: 8,
+        nombre: 'Mapas App',
+        imagen: './mapas_angular.jpg',
+        descripcion: [
+            'Aplicación web, que consumiendo la Api Mapbox, nos ofrece posibilidades para manipular y representar los mapas, marcadores, ubicaciones y mucho más...',
+            
+        ],
+        tecnologias: [
+            'ANGULAR',
+            'TypeScript',
+            'CSS',
+            
+            ],
+        librerias: [          
+            
+            'Mapbox',
+            'RxJs',
+            'Bootstrap'
+            
+         
+       ],
+        url: {
+            urlBackGit:'',
+            urlFrontGit:'https://github.com/jaelEspinosa/maps_Angular.git',
+            urlDeploy:'https://angularmapsjael.netlify.app'
+        }
     }
 ]
