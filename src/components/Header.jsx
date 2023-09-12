@@ -4,9 +4,24 @@ import foto from "../img/foto_transparente_ruido.png";
 import Menu from "./Menu";
 import MenuDesk from "./MenuDesk";
 import menu from '../img/menu.png'
+
+
 const Header = () => {
   const [mostrarMenu, setMostrarMenu]= useState(false)  
-  const handleMenu = () => setMostrarMenu(!mostrarMenu)
+  const handleMenu = () => {
+    setMostrarMenu(!mostrarMenu)
+    const $menu = document.getElementById('menu')
+    const arrayClass = [...$menu.classList]
+   
+    if(arrayClass.includes('rotate')){
+      $menu.classList.remove('rotate')
+      $menu.classList.add('initial-position')
+    }else{
+      $menu.classList.remove('initial-position')
+      $menu.classList.add('rotate')
+    }
+  }
+
   return (
     <>
     <div className={styles.header}>
@@ -19,7 +34,7 @@ const Header = () => {
           onClick={handleMenu}
           >
           
-    {!mostrarMenu ? <img src={menu}></img> : <div className={styles.divVacio}></div>} 
+    <img id='menu' src={menu}></img>{/* <div className={styles.divVacio}></div>  */}
     </div>
     
      <MenuDesk />

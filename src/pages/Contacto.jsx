@@ -7,7 +7,7 @@ import Toast from "../components/Toast";
 import Spiner from "../components/Spiner";
 import { useNavigate } from "react-router-dom";
 
-const Curriculum = () => {
+const Contacto = () => {
   const [send, setSend] = useState(false);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate()
@@ -87,4 +87,4 @@ const Curriculum = () => {
   );
 };
 
-export default Curriculum;
+export default Contacto;

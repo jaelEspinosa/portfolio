@@ -1,12 +1,13 @@
 
 .formulario{
+    
     background-color: gray;
     border-radius: 8px;
     box-shadow: 1px 1px 3px white;
     padding: 20px;
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin:  auto;
+    margin-top: 25px;
+    margin-bottom: 100px;
     max-width: 800px;
     color:rgb(39, 38, 38);
     border: 1px solid white;
@@ -19,6 +20,7 @@
     animation-name: present;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
+    overflow-x: hiden;
     
 }
 .formulario h2{
@@ -26,10 +28,18 @@
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
+@media(max-width:768px){
+    .formulario{
+      margin-top: 100px;
+     
+      max-width: 80vw;
+    }
+}
 @media(min-width:768px){
     .formulario{
-        margin-top: 140px;
-        margin-bottom: 150px;
+        margin-top: 100px;
+        margin-bottom: 100px;
         background-image: url('../img/sobre-vertical.jpg');
         background-position: center;
         background-repeat: no-repeat;
@@ -38,7 +48,7 @@
 }
 .input{
        
-    width: 450px;
+    width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -78,6 +88,7 @@ textarea{
     border:1px solid lightgray;
     padding: 8px;
     border-radius: 8px;
+    max-width: 100%;
 }
 
 @keyframes present {
