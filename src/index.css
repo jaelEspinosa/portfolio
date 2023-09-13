@@ -34,3 +34,13 @@ h1{
   transform: rotate(0deg);
   transition: transform 0.5s;
 }
+.velo{
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+  background-color:rgba(29, 36, 37, 0.568);  
+  
+  z-index: 10;
+}

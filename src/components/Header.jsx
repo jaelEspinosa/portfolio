@@ -11,12 +11,15 @@ const Header = () => {
   const handleMenu = () => {
     setMostrarMenu(!mostrarMenu)
     const $menu = document.getElementById('menu')
+    const $doc = document.getElementById('velo')
     const arrayClass = [...$menu.classList]
    
     if(arrayClass.includes('rotate')){
       $menu.classList.remove('rotate')
+      $doc.classList.remove('velo')
       $menu.classList.add('initial-position')
     }else{
+      $doc.classList.add('velo')
       $menu.classList.remove('initial-position')
       $menu.classList.add('rotate')
     }

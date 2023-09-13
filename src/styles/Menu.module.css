@@ -1,20 +1,4 @@
-/* .mobile{
-    padding: 25px 5px;
-    margin: 0;
-    position:absolute;
-    top:25px;
-    left: 200px;
-    list-style-type: none;
-    font-size: 16px;
-    font-weight:400;
-    animation: menu-move 0.1s;   
-    overflow-y: hidden;
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px gray;
-    text-decoration: none;
-    height: 130px;
-    background-color: rgba(29, 26, 26, 0.918);
-} */
+
 
 .mobile{
     padding: 25px 25px;
@@ -34,6 +18,7 @@
     background-color: rgba(29, 26, 26, 0.918);
     overflow-y: hiden;
     z-index: 999;
+    
 }
 @media (min-width:450px) {
     .mobile{
@@ -86,12 +71,16 @@
     color:white;
     cursor:pointer;
     position:absolute;
-    top:10px;
-    right:10px;
+    top:80px;
+    left:30px;
+    font-size: 50px;
+    z-index: 999;
+    text-shadow: 8px 2px 18px black;
     
     
 }
 .icons{
     width: 25px;
 }
+
 
