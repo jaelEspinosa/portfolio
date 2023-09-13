@@ -9,6 +9,7 @@
     margin-top: 25px;
     margin-bottom: 100px;
     max-width: 800px;
+    height: calc(100vh - 405px);
     color:rgb(39, 38, 38);
     border: 1px solid white;
     display: flex;
@@ -31,8 +32,9 @@
 
 @media(max-width:768px){
     .formulario{
-      margin-top: 100px;
-     
+      margin-top: 10px;
+      margin-bottom: 5px;
+      height: calc(100vh - 210px);
       max-width: 80vw;
     }
 }

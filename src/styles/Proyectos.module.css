@@ -8,8 +8,8 @@ h1{
 .contain{
     margin:auto;
     margin-top: 1rem;
-    width: 80vw;
-    height: 65vh;
+    height: calc(100vh - 250px)!important;
+
     max-width: 900px;
     border: 1px solid white;
     color:white;
@@ -47,7 +47,8 @@ h1{
         width: 50%;
     }
     .contain{
-        height: 70vh;
+        height: calc(100vh - 180px);
+        margin-bottom: 10px;
     }
 }
 .contain::-webkit-scrollbar{

@@ -6,6 +6,8 @@
   align-items: center;
   max-width: 800px;
   margin: auto;
+  height: calc(100vh - 405px);
+  margin-bottom: 230px;
   animation-name: present;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
@@ -19,10 +21,12 @@
 }
 @media(max-width:768px){
   .containArticle{
-    max-height: calc( 100vh - 230px );
     overflow-y: scroll;
-    
-   
+  }
+  .contain{
+    height: calc( 100vh - 155px );
+    margin-bottom: 10px;
+
   }
 }
 .contain p {
