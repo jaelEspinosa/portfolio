@@ -12,16 +12,23 @@ const Header = () => {
     setMostrarMenu(!mostrarMenu)
     const $menu = document.getElementById('menu')
     const $doc = document.getElementById('velo')
+    const $blur = document.getElementById('blur')
+  
+    
     const arrayClass = [...$menu.classList]
    
     if(arrayClass.includes('rotate')){
       $menu.classList.remove('rotate')
       $doc.classList.remove('velo')
       $menu.classList.add('initial-position')
+      $blur.classList.remove('blur')
+     
     }else{
       $doc.classList.add('velo')
       $menu.classList.remove('initial-position')
       $menu.classList.add('rotate')
+      $blur.classList.add('blur')
+      
     }
   }
 
@@ -37,7 +44,7 @@ const Header = () => {
           onClick={handleMenu}
           >
           
-    <img id='menu' src={menu}></img>{/* <div className={styles.divVacio}></div>  */}
+    <img id='menu' src={menu}></img>
     </div>
     
      <MenuDesk />

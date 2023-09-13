@@ -5,7 +5,7 @@ import styles from "../styles/Proyectos.module.css";
 const Proyectos = () => {
 
   return (
-    <div className={styles.contain}>
+    <div id="blur" className={styles.contain}>
     <h1 style={{textDecoration:'underline'}}>Proyectos</h1>
      {proyectos.map (proyecto => (
         <Proyecto key={proyecto.id} proyecto = { proyecto }/>

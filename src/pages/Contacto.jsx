@@ -35,7 +35,7 @@ const Contacto = () => {
     formState: { errors },
   } = useForm();
   return (
-    <>
+    <div id="blur">
       <form onSubmit={handleSubmit(onSubmit)} className={styles.formulario}>
         {loading && <Spiner />}
         {send && <Toast />}
@@ -83,7 +83,7 @@ const Contacto = () => {
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_next" value="http://localhost:5173" />
       </form>
-    </>
+    </div>
   );
 };
 

@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
    
-    <div className={styles.container}>
+    <div id="blur" className={styles.container}>
       <h2>¡Hola, bienvenido!</h2>
       
       <div className={styles.contfoto}>
