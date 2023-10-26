@@ -1,12 +1,12 @@
 export const proyectos = [
     {
-        id: 0,
+        id: 9,
         nombre: 'StarWars-DataBank',
         imagen: './starwars.jpg',
         descripcion: [
             'Base de Datos Star Wars',
           
-            'App, en la que puedes consultar personajes, naves, localizaciones, y mucho mas...',
+            'App, en la que puedes consultar personajes, naves, localizaciones, y mucho más...',
             'Nota: Se trata de un desarrollo para movil y tablet, por tanto la vista para pc no es lo ideal'
         ],
         tecnologias: [
