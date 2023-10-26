@@ -36,7 +36,7 @@ const About = () => {
     </p>
 
     <p>
-       En 2022 con un nuevo giro,  cursé un BootCamp FullStack Web Developer. Fué un curso inmersivo que duró 4 meses en el que he aprendí
+       En 2022 con un nuevo giro,  cursé un BootCamp FullStack Web Developer. Fué un curso inmersivo que duró 4 meses en el que aprendí
       tecnologías como HTML5, CSS3 (Preprocesadores SCSS y SASS), JAVASCRIPT, REACT, ANGULAR, PHP, NODEJS y MONGODB.  
 
     </p>
