@@ -39,7 +39,7 @@ const Proyecto = ({ proyecto }) => {
           ))}
 
           <div className={styles.rrssContain}>
-            {proyecto.url.urlBackGit !== "" && (
+            {proyecto.url.urlBackGit && (
               <>
                 <p>
                   <span>Backend: </span>

@@ -1,6 +1,35 @@
 export const proyectos = [
     {
         id: 0,
+        nombre: 'StarWars-DataBank',
+        imagen: './starwars.jpg',
+        descripcion: [
+            'Base de Datos Star Wars',
+          
+            'App, en la que puedes consultar personajes, naves, localizaciones, y mucho mas...',
+            'Nota: Se trata de un desarrollo para movil y tablet, por tanto la vista para pc no es lo ideal'
+        ],
+        tecnologias: [
+            'IONIC',
+            'ANGULAR'
+        ],
+        librerias: [
+            
+            'material',
+            'ionic',
+            
+
+        ],
+        url: {
+            urlBackGit: null,
+            urlFrontGit:'https://github.com/jaelEspinosa/ionic_StarsWars/tree/main/src',
+            urlDeploy:'https://starwars-databank-app.netlify.app'
+        }
+
+        
+    },
+    {
+        id: 0,
         nombre: 'BudgetApp',
         imagen: './budgetapp2.jpg',
         descripcion: [
