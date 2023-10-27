@@ -7,7 +7,9 @@ export const proyectos = [
             'Base de Datos Star Wars',
           
             'App, en la que puedes consultar personajes, naves, localizaciones, y mucho más...',
-            'Nota: Se trata de un desarrollo para movil y tablet, por tanto la vista para pc no es lo ideal'
+            '** Se trata de un desarrollo para movil y tablet, por tanto la vista para pc no es lo ideal. ',
+            'Al abrirlo desde un dispositivo Android pulsando en las opciones del navegador, tenemos la opcion de instalar la aplicación. Una vez instalada se verá y comportará como una app nativa de Android'
+            
         ],
         tecnologias: [
             'IONIC',
@@ -15,15 +17,17 @@ export const proyectos = [
         ],
         librerias: [
             
-            'material',
-            'ionic',
+            'Material',
+            'Ionic',
+            'Rxjs',
+            'Capacitor'
             
 
         ],
         url: {
             urlBackGit: null,
             urlFrontGit:'https://github.com/jaelEspinosa/ionic_StarsWars/tree/main/src',
-            urlDeploy:'https://starwars-databank-app.netlify.app'
+            urlDeploy:'https://ionic-star-wars-56f70.web.app'
         }
 
         
