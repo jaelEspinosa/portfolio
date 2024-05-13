@@ -1,6 +1,43 @@
 export const proyectos = [
     {
         id: 9,
+        nombre: 'Proyecto Titán',
+        imagen: './titanFoto.jpg',
+        descripcion: [
+            'Aplicación PWA de Fitness.',
+          
+            'Está dirigida a entrenadores personales, para que gestionen, asesoren y hagan seguimiento de sus clientes.',
+            'Se trata de un desarrollo para movil, tablet y PC.',
+            'Más abajo esta el link a la pagina web que da entrada a la app. pulsando el botón "Únete hoy", cargará la aplicación PWA.',
+            'La aplicación es de pago, para entrenadores, pero para usuarios, es gratuita. Aunque dispone de un periodo de prueba de 14 dias para entrenadores.'
+            
+        ],
+        tecnologias: [
+            'IONIC',
+            'ANGULAR',
+            'NODE',
+            'EXPRESS',
+            'MONGO DB'
+        ],
+        librerias: [
+            
+            'Material',
+            'Ionic',
+            'Rxjs',
+            'Capacitor'
+            
+
+        ],
+        url: {
+            urlBackGit: null,
+            urlFrontGit:null,
+            urlDeploy:'https://www.proyectotitan.es'
+        }
+
+        
+    },
+    {
+        id: 9,
         nombre: 'StarWars-DataBank',
         imagen: './starwars.jpg',
         descripcion: [

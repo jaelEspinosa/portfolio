@@ -13,6 +13,7 @@ const Contacto = () => {
   const navigate = useNavigate()
   const onSubmit = async (data) => {
     setLoading(true);
+    
     try {
       await axios.post(
         "https://formsubmit.co/ajax/f20946e246777b24c2d57cee34fe6109",
