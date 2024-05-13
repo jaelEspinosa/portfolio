@@ -1,6 +1,6 @@
 export const proyectos = [
     {
-        id: 9,
+        id: 11,
         nombre: 'Proyecto Titán',
         imagen: './titanFoto.jpg',
         descripcion: [
