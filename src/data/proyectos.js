@@ -37,6 +37,38 @@ export const proyectos = [
         
     },
     {
+        id: 1,
+        nombre: 'TesloShop',
+        imagen: './tesloclon1.jpg',
+        descripcion: [
+            'Ecommerce de ropa',
+            'Tiene dos entornos, cliente y admin.',
+            'En el entorno cliente tiene las funciones propias de un ecommerce. En el entorno admin, se pueden ver todas las ordenes usuarios y productos, pudiendo editar y añadir nuevos productos',
+            
+        ],
+        tecnologias: [
+            'NEXT 14',
+            'Postgres'
+            
+            
+        ],
+        librerias: [
+            'Next Auth',
+            'prisma',
+            'swipper',
+            'Paypal',
+            
+
+        ],
+        url: {
+            urlBackGit:'',
+            urlFrontGit:'https://github.com/jaelEspinosa/tesloshop_v2.git',
+            urlDeploy:'https://tesloshop-v2.vercel.app/'
+        }
+
+        
+    },
+    {
         id: 9,
         nombre: 'StarWars-DataBank',
         imagen: './starwars.jpg',
@@ -101,40 +133,7 @@ export const proyectos = [
         }
 
         
-    },
-    {
-        id: 1,
-        nombre: 'TesloShop',
-        imagen: './tesloclon1.jpg',
-        descripcion: [
-            'Ecommerce de ropa',
-            'Tiene dos entornos, cliente y admin.',
-            'En el entorno cliente tiene las funciones propias de un ecommerce. En el entorno admin, se pueden ver todas las ordenes usuarios y productos, pudiendo editar y añadir nuevos productos',
-            'Tanto el Back como el Front van en el mismo proyecto.'
-        ],
-        tecnologias: [
-            'NEXT JS',
-            'MATERIAL UI',
-            'NODEJS'
-        ],
-        librerias: [
-            'Next Auth',
-            'Axios',
-            'Material Ui',
-            'React Hook Form',
-            'Paypal',
-            'Js-Cookie',
-            'Mongoose'
-
-        ],
-        url: {
-            urlBackGit:'',
-            urlFrontGit:'https://github.com/jaelEspinosa/tesloShopClon',
-            urlDeploy:'https://tesloshopclonjael.vercel.app/'
-        }
-
-        
-    },
+    },   
     {
         id: 2,
         nombre: 'upTask',
